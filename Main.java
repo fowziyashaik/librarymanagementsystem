@@ -23,30 +23,34 @@ public class Main {
             System.out.println("5. Exit");
             System.out.print("Choice: ");
             int ch = sc.nextInt();
-            sc.nextLine();
+            sc.nextLine(); // consume newline
 
             switch (ch) {
-                case 1 -> lib.showBooks();
-                case 2 -> lib.showMembers();
-                case 3 -> {
+                case 1:
+                    lib.showBooks();
+                    break;
+                case 2:
+                    lib.showMembers();
+                    break;
+                case 3:
                     System.out.print("Enter Member ID: ");
-                    String mId = sc.nextLine();
+                    String mIdIssue = sc.nextLine();
                     System.out.print("Enter Book ID: ");
-                    String bId = sc.nextLine();
-                    lib.issueBook(mId, bId);
-                }
-                case 4 -> {
+                    String bIdIssue = sc.nextLine();
+                    lib.issueBook(mIdIssue, bIdIssue);
+                    break;
+                case 4:
                     System.out.print("Enter Member ID: ");
-                    String mId = sc.nextLine();
+                    String mIdReturn = sc.nextLine();
                     System.out.print("Enter Book ID: ");
-                    String bId = sc.nextLine();
-                    lib.returnBook(mId, bId);
-                }
-                case 5 -> {
+                    String bIdReturn = sc.nextLine();
+                    lib.returnBook(mIdReturn, bIdReturn);
+                    break;
+                case 5:
                     System.out.println("Goodbye!");
                     return;
-                }
-                default -> System.out.println("Invalid option.");
+                default:
+                    System.out.println("Invalid option.");
             }
         }
     }
