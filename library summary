@@ -1,0 +1,19 @@
+Library Management System - Project Summary
+Description:
+A console-based Library Management System in Java that allows members (students and faculty) to
+borrow and return books. It enforces borrowing limits based on member type.
+Key Features:
+- Add/View books
+- Register student/faculty members
+- Issue and return books
+- Member-based borrowing limits
+- Uses OOP concepts and Java Collections
+Technologies:
+- Java Core (OOP, Inheritance, Polymorphism, Encapsulation)
+- ArrayList, HashMap
+- Exception Handling
+Structure:
+- model/ : Book.java, Member.java, StudentMember.java, FacultyMember.java
+- service/ : LibrarySystem.java
+- Main.java : Runs the console application
+Ideal for final year students and Java learners for resume enhancement.
