@@ -31,3 +31,33 @@ This is a console-based Library Management System developed using Core Java. The
 - Final Year Students
 - Java Core Concepts Demonstration
 - Resume Projects
+- sample input & output
+- --- Library System ---
+1. View Books
+2. View Members
+3. Issue Book
+4. Return Book
+5. Exit
+Choice: 1
+option:1
+[Available] B1 - Java Programming
+[Available] B2 - Data Structures
+option:2
+M1 - Alice (StudentMember)
+M2 - Dr. Bob (FacultyMember)
+option:3
+Choice: 3
+Enter Member ID: M1
+Enter Book ID: B1
+Book issued successfully.
+option:4
+Choice: 4
+Enter Member ID: M1
+Enter Book ID: B1
+Book returned successfully.
+option:5
+Choice: 5
+Goodbye!
+
+
+
